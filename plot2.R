@@ -16,10 +16,10 @@ globalActivePower <- as.numeric(subSetData$Global_active_power)
 # if("ExData_Plotting1"%in%dir()==FALSE) dir.create("ExData_Plotting1")
 
 # Opening the png graphics device with the dimensions given in the assignment instructions
-# png("plot2.png", width=480, height=480)
+png("plot2.png", width=480, height=480)
 
 # Alternative to plot to forked and cloned directory
-png("ExData_Plotting1/plot2.png", width=480, height=480)
+# png("ExData_Plotting1/plot2.png", width=480, height=480)
 
 # Plotting with the parameters given in the assignment instructions
 plot(dateTime, globalActivePower, type="l", xlab=" ", ylab="Global Active Power (kilowatts)")
